@@ -1,4 +1,4 @@
-# IPFS Desktop
+# IPFS Desktop for Data Monitoring
 
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai/)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
@@ -30,14 +30,14 @@ When in doubt, pick one of package formats with built-in automatic update mechan
 
 - [Features](#features)
 - [Install](#install)
-- [Contribute](#contribute) or [Translate](#translations)
-- [FAQ & Troubleshooting](#faq--troubleshooting)
 
 ## Features
 
 IPFS Desktop combines a complete IPFS node (running [go-ipfs](https://github.com/ipfs/go-ipfs)) and the [IPFS Web UI](https://github.com/ipfs-shipyard/ipfs-webui) into a single, convenient desktop app — plus adds a menu to your OS menubar/system tray for easy access to a variety of common IPFS tasks.
 
 If you already have an IPFS node on your computer, IPFS Desktop will act as a control panel and file browser for that node. If you don't have a node, it'll install one for you. And either way, IPFS Desktop will automatically check for updates.
+
+In addition to all this- GalaxyX plans with this forked version, to make visualizing the DAG and the history of the objects saved in IPFS easier to access. Currently, Explore fethces the IPLD node that it addresses. Making the underlying data structure more interoperable with just simple data.
 
 ### Start your node at system startup and control it from your OS
 
