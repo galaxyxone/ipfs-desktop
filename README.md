@@ -11,6 +11,7 @@
 
 Use IPFS Desktop to get acquainted with IPFS without needing to touch the terminal — or, if you're already experienced, use the powerful menubar/taskbar shortcuts alongside the command line to make your IPFS workflow faster.
 
+
 ![Status screen of IPFS Desktop](https://gateway.ipfs.io/ipfs/QmYHuXitXMf5xTjiQXmXdqszvMTADvrM5zA7EqoDj3d3RH)
 
 | Files screen | Explore screen | Peers screen | Settings screen | Menubar/taskbar |
@@ -37,6 +38,7 @@ IPFS Desktop combines a complete IPFS node (running [go-ipfs](https://github.com
 
 If you already have an IPFS node on your computer, IPFS Desktop will act as a control panel and file browser for that node. If you don't have a node, it'll install one for you. And either way, IPFS Desktop will automatically check for updates.
 
+## GalaxyX additions
 In addition to all this- GalaxyX plans with this forked version, to make visualizing the DAG and the history of the objects saved in IPFS easier to access. Currently, Explore fethces the IPLD node that it addresses. Making the underlying data structure more interoperable with just simple data.
 
 ### Start your node at system startup and control it from your OS
