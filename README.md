@@ -1,4 +1,4 @@
-# IPFS Desktop for Data Monitoring
+# IPFS Desktop for Data Monitoring modified by GalaxyX
 
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai/)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
@@ -10,7 +10,6 @@
 **IPFS Desktop gives you all the power of [IPFS](https://ipfs.io) in a convenient desktop app: a complete IPFS node, plus handy OS menubar/taskbar shortcuts and an all-in-one file manager, peer map, and content explorer.**
 
 Use IPFS Desktop to get acquainted with IPFS without needing to touch the terminal — or, if you're already experienced, use the powerful menubar/taskbar shortcuts alongside the command line to make your IPFS workflow faster.
-
 
 ![Status screen of IPFS Desktop](https://gateway.ipfs.io/ipfs/QmYHuXitXMf5xTjiQXmXdqszvMTADvrM5zA7EqoDj3d3RH)
 
@@ -39,6 +38,7 @@ IPFS Desktop combines a complete IPFS node (running [go-ipfs](https://github.com
 If you already have an IPFS node on your computer, IPFS Desktop will act as a control panel and file browser for that node. If you don't have a node, it'll install one for you. And either way, IPFS Desktop will automatically check for updates.
 
 ## GalaxyX additions
+
 In addition to all this- GalaxyX plans with this forked version, to make visualizing the DAG and the history of the objects saved in IPFS easier to access. Currently, Explore fethces the IPLD node that it addresses. Making the underlying data structure more interoperable with just simple data.
 
 ### Start your node at system startup and control it from your OS
@@ -48,6 +48,7 @@ IPFS Desktop enables you to stop or restart your node straight from the IPFS log
 ### Quickly import files, folders, and screenshots to IPFS
 
 Import files and folders to your IPFS node in a variety of convenient ways:
+
 - Drag and drop items onto IPFS Desktop's `Files` screen
 - Click the `Import` button on the `Files` screen to add items from your computer or an IPFS [content ID (CID)](https://docs.ipfs.io/concepts/content-addressing/#identifier-formats)
 - (Windows) Right-click a file/folder's icon to add it to IPFS from the pop-up menu
@@ -58,6 +59,7 @@ Plus, you can use the `Take Screenshot` command under the IPFS logo menu to take
 ### Easily manage the contents of your node
 
 IPFS Desktop's `Files` screen gives you an easy, familiar interface for working with the contents of your node:
+
 - Easily rename, move, or remove files and folders
 - Preview many common file formats directly in IPFS Desktop
 - Copy a file/folder's IPFS [content ID (CID)](https://docs.ipfs.io/concepts/content-addressing/#identifier-formats) or a shareable link to your clipboard
@@ -92,11 +94,13 @@ Release notes and older versions of IPFS Desktop can be found on the [releases p
 Don't see your favorite package manager? Visit our [package managers page](https://github.com/ipfs-shipyard/ipfs-desktop/issues/691) and help us add support for it!
 
 ### Mac
+
 - **Installer:** [IPFS-Desktop-0.20.2.dmg](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.20.2/IPFS-Desktop-0.20.2.dmg)\
 [![](https://img.shields.io/github/downloads/ipfs-shipyard/ipfs-desktop/v0.20.2/IPFS-Desktop-0.20.2.dmg.svg?style=flat-square&label=downloads)](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.20.2/IPFS-Desktop-0.20.2.dmg)
 - **Homebrew** (community-maintained): `brew install --cask ipfs`
 
 ### Windows
+
 - **Installer:** [IPFS-Desktop-Setup-0.20.2.exe](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.20.2/IPFS-Desktop-Setup-0.20.2.exe)\
 [![](https://img.shields.io/github/downloads/ipfs-shipyard/ipfs-desktop/v0.20.2/IPFS-Desktop-Setup-0.20.2.exe.svg?style=flat-square&label=downloads)](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.20.2/IPFS-Desktop-Setup-0.20.2.exe)
 - **Chocolatey** (community-maintained): `choco install ipfs-desktop`
@@ -104,6 +108,7 @@ Don't see your favorite package manager? Visit our [package managers page](https
 - **WinGet** (community-maintained): `winget install IPFS.IPFS-Desktop`
 
 ### Linux/FreeBSD
+
 - **AppImage**: [ipfs-desktop-0.20.2-linux-x86_64.AppImage](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.20.2/ipfs-desktop-0.20.2-linux-x86_64.AppImage)\
 [![](https://img.shields.io/github/downloads/ipfs-shipyard/ipfs-desktop/v0.20.2/ipfs-desktop-0.20.2-linux-x86_64.AppImage.svg?style=flat-square&label=downloads)](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.20.2/ipfs-desktop-0.20.2-linux-x86_64.AppImage)
 - **Tarball** (use this for building packages for distros): [ipfs-desktop-0.20.2-linux-x64.tar.xz](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.20.2/ipfs-desktop-0.20.2-linux-x64.tar.xz)\
@@ -115,11 +120,12 @@ Don't see your favorite package manager? Visit our [package managers page](https
 - **FreeBSD** (experimental): [ipfs-desktop-0.20.2-linux-x64.freebsd](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.20.2/ipfs-desktop-0.20.2-linux-x64.freebsd) (requires [Linux Binary Compatibility to be enabled](https://docs.freebsd.org/en/books/handbook/linuxemu/))\
 [![](https://img.shields.io/github/downloads/ipfs-shipyard/ipfs-desktop/v0.20.2/ipfs-desktop-0.20.2-linux-x64.freebsd.svg?style=flat-square&label=downloads)](https://github.com/ipfs-shipyard/ipfs-desktop/releases/download/v0.20.2/ipfs-desktop-0.20.2-linux-x64.freebsd)
 - **Snapcraft** is discouraged due to [confinement issues](https://github.com/ipfs/ipfs-desktop/issues/2031), use `.AppImage` instead
-- **AUR** (maintained by [@RubenKelevra](https://github.com/RubenKelevra)) Use the [`ipfs-desktop` package](https://aur.archlinux.org/packages/ipfs-desktop/) 
+- **AUR** (maintained by [@RubenKelevra](https://github.com/RubenKelevra)) Use the [`ipfs-desktop` package](https://aur.archlinux.org/packages/ipfs-desktop/)
 
 ### Install from source
 
 To install and run IPFS Desktop from source, you'll also need:
+
 - [Node.js](https://nodejs.org/en/) – pick the current LTS
 - Any [platform-specific dependencies](https://github.com/nodejs/node-gyp#installation) required by [`node-gyp`](https://github.com/nodejs/node-gyp)
 
@@ -144,9 +150,10 @@ No matter how you contribute, please be sure you read and follow the [IPFS Contr
 Contributing translations in your language is particularly valuable! We use Transifex to manage internationalization, which means you don't need to change a single line of code to add your translations — just sign up for a Transifex account.
 
 Because IPFS Desktop app includes text from [IPFS Web UI](https://github.com/ipfs-shipyard/ipfs-webui) and [IPLD Explorer](https://github.com/ipfs-shipyard/ipld-explorer), you'll want to join all three Transifex projects in order to see all the text:
-- https://www.transifex.com/ipfs/ipfs-desktop/
-- https://www.transifex.com/ipfs/ipfs-webui/
-- https://www.transifex.com/ipfs/ipld-explorer/
+
+- <https://www.transifex.com/ipfs/ipfs-desktop/>
+- <https://www.transifex.com/ipfs/ipfs-webui/>
+- <https://www.transifex.com/ipfs/ipld-explorer/>
 
 *Note for developers: We use English as our source of truth. This means that if you add any new text, make those additions in [`./assets/locales/en.json`](./assets/locales/en.json) and they will automatically propagate in Transifex for other languages.*
 
@@ -169,7 +176,7 @@ If you've noticed that the old system tray is back in IPFS Desktop v0.13, this i
 
 ### Why can't I install IPFS Desktop under Debian 11?
 
-Debian package depends on `libappindicator3-1` which does not exist in Debian 11 anymore. 
+Debian package depends on `libappindicator3-1` which does not exist in Debian 11 anymore.
 
 You need to install this missing dependency [on your own](https://gist.github.com/keyle/b4536dc922bb13d7b5dce16a7db7e328), or use `.AppImage` instead.
 
@@ -183,19 +190,22 @@ Rather than run without sandboxing I'm aborting now. You need to make sure that
 chrome-sandbox is owned by root and has mode 4755.
 
 When launching from the terminal:
+
 ```console
 $ ipfs-desktop
 $Trace/breakpoint trap
 ```
 
 This is a known issue with Electron/Chrome and some hardened kernels. More details can be found [here](https://github.com/ipfs-shipyard/ipfs-desktop/issues/1362#issuecomment-596857282), but a fix is to start IPFS Desktop from the terminal with the following additional parameter:
+
 ```console
-$ ipfs-desktop --no-sandbox
+ipfs-desktop --no-sandbox
 ```
 
 ### Where are my IPFS configuration and log files?
 
 You can open these files from the IPFS logo menu by selecting `Open Logs Directory` or `Open Configuration File` from the `Advanced` submenu. Or, find them in your OS as follows:
+
 - **Mac:** `~/Library/Application Support/IPFS Desktop/`
 - **Windows:** `%appdata%/IPFS Desktop/`
 - **Linux:** `~/.config/IPFS Desktop/`
@@ -214,13 +224,13 @@ You can check which version of IPFS you're running from the IPFS logo menu by lo
 
 ### Which flags does IPFS Desktop boot with?
 
-By default, IPFS Desktop starts the IPFS daemon with the flags `--migrate=true --routing=dhtclient ----enable-gc=true`. 
+By default, IPFS Desktop starts the IPFS daemon with the flags `--migrate=true --routing=dhtclient ----enable-gc=true`.
 
 You can change this in the IPFS Desktop config file by selecting `Open Configuration File` from the `Advanced` submenu.
 
-### I need more help!
+### I need more help
 
-If you need help with using IPFS Desktop, the quickest way to get answers is to post them in the [official IPFS forums](https://discuss.ipfs.io). 
+If you need help with using IPFS Desktop, the quickest way to get answers is to post them in the [official IPFS forums](https://discuss.ipfs.io).
 
 If you think you've found a bug or other issue with IPFS Desktop itself, please [open an issue](https://github.com/ipfs-shipyard/ipfs-desktop/issues/new/choose).
 
